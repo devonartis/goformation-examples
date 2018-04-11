@@ -28,7 +28,7 @@ func main() {
 
 		Description:   "EC2 Instance Type",
 		Type:          "String",
-		Default:       "t2.micro",
+		Default:       "t2.nano",
 		AllowedValues: []string{"t2.nano", "t2.micro", "t1.micro", "t2.small", "t2.medium"},
 	}
 
