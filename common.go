@@ -25,3 +25,8 @@ type sshLocParam struct {
 	Default               string
 	AllowedPattern        string
 }
+
+// NewInstanceParam init
+func NewInstanceParam() *instanceParams {
+	return &instanceParams{}
+}
